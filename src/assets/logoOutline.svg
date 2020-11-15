@@ -11,7 +11,7 @@
    data-name="Calque 1"
    viewBox="0 0 284.64 214.03"
    version="1.1"
-   sodipodi:docname="logo.svg"
+   sodipodi:docname="logoEpaisBlanc.svg"
    inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
   <metadata
      id="metadata924">
@@ -39,8 +39,8 @@
      id="namedview922"
      showgrid="false"
      inkscape:zoom="2.5582712"
-     inkscape:cx="131.48861"
-     inkscape:cy="114.13972"
+     inkscape:cx="127.57972"
+     inkscape:cy="101.63128"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
@@ -78,22 +78,19 @@
      id="path845" />
   <path
      class="cls-3"
-     d="M433.94,246.55l-28,22.81-32.42,26.4-1.83,1.49h-93l-96.46-81.41H423C439.3,215.84,446.57,236.27,433.94,246.55Z"
-     transform="translate(-156.08 -215.84)"
+     d="m 272.69855,36.45071 -26.10771,21.268457 -30.22899,24.615838 -1.70632,1.389302 H 127.94065 L 37.999593,7.81615 H 262.4979 c 15.19841,0 21.97709,19.049302 10.20065,28.63456 z"
      id="path847"
-     style="fill:#607d8b;fill-opacity:0.62341774" />
+     style="fill:#bebe9e;fill-opacity:0;stroke:#ffffff;stroke-width:10.5723;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      class="cls-4"
-     d="M423.59,297.25c16.08,0,23.27,20.19,10.8,30.34l-28.45,23.17-32.42,26.4v35.41a17.26,17.26,0,0,1-28.31,13.27Q305,392.39,264.86,358.92l-108.78-92.3V242a26.17,26.17,0,0,1,26.17-26.17h0l96.46,81.41Z"
-     transform="translate(-156.08 -215.84)"
+     d="m 259.04802,83.52434 c 14.99329,0 21.69737,18.82552 10.07012,28.28957 l -26.5273,21.60412 -30.22899,24.61584 v 33.01692 a 16.093536,16.093536 0 0 1 -26.39676,12.3732 Q 148.47256,172.2346 111.0453,141.02656 L 9.6168591,54.964375 V 32.008241 A 24.401382,24.401382 0 0 1 34.018241,7.6068592 v 0 L 123.95929,83.515016 Z"
      id="path849"
-     style="fill:#607d8b;fill-opacity:1" />
+     style="fill:#bebe9e;fill-opacity:0;stroke:#ffffff;stroke-width:10.5723;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      class="cls-5"
-     d="M264.86,358.92l-80.33,66.84a17.35,17.35,0,0,1-28.45-13.34V266.62Z"
-     transform="translate(-156.08 -215.84)"
+     d="M 111.0453,141.02656 36.144154,203.34939 A 16.177454,16.177454 0 0 1 9.6168591,190.91093 V 54.964375 Z"
      id="path851"
-     style="fill:#435761;fill-opacity:1" />
+     style="fill:#bebe9e;fill-opacity:0;stroke:#ffffff;stroke-width:10.5723;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      class="cls-2"
      d="M264.86,247.79"
