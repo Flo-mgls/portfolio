@@ -11,7 +11,7 @@
    data-name="Calque 1"
    viewBox="0 0 284.64 214.03"
    version="1.1"
-   sodipodi:docname="Logo bleu.svg"
+   sodipodi:docname="logoMF.svg"
    inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
   <metadata
      id="metadata924">
@@ -21,7 +21,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,9 +38,9 @@
      inkscape:window-height="815"
      id="namedview922"
      showgrid="false"
-     inkscape:zoom="2.5582712"
-     inkscape:cx="140.28361"
-     inkscape:cy="101.24038"
+     inkscape:zoom="2.836051"
+     inkscape:cx="132.79973"
+     inkscape:cy="107.015"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
@@ -124,4 +124,24 @@
      d="M264.86,358.92"
      transform="translate(-156.08 -215.84)"
      id="path863" />
+  <g
+     aria-label="M"
+     transform="scale(1.0453729,0.95659647)"
+     id="text854"
+     style="font-style:normal;font-weight:normal;font-size:171.682px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.29204">
+    <path
+       d="m 54.806746,36.45676 q 1.545138,0 3.261958,0.85841 1.888502,0.85841 2.918594,2.231866 l 45.495732,68.844484 -6.00887,-0.17168 46.01078,-68.672804 q 2.23186,-3.261958 5.83719,-3.090276 2.74691,0.171682 4.80709,2.060184 2.06019,1.888503 2.06019,4.978779 V 149.76688 q 0,2.9186 -2.06019,4.97878 -2.06018,2.06019 -5.15046,2.06019 -3.09027,0 -5.15046,-2.06019 -2.06018,-2.06018 -2.06018,-4.97878 V 56.543555 l 4.29205,0.85841 -40.51696,61.633845 q -1.03009,1.20177 -2.57523,2.06018 -1.37345,0.85841 -2.91859,0.85841 -1.54514,0 -3.090276,-0.85841 -1.545138,-0.85841 -2.57523,-2.06018 L 57.381976,57.401965 60.987298,52.938233 v 96.828647 q 0,2.9186 -1.888502,4.97878 -1.888502,2.06019 -4.807096,2.06019 -2.918594,0 -4.807096,-2.06019 -1.71682,-2.06018 -1.71682,-4.97878 V 43.495723 q 0,-2.746912 1.888502,-4.807097 2.060184,-2.231866 5.15046,-2.231866 z"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Quicksand;-inkscape-font-specification:'Quicksand Medium';fill:#ffffff;stroke-width:4.29204"
+       id="path860" />
+  </g>
+  <g
+     aria-label="F"
+     transform="scale(1.0311684,0.9697737)"
+     id="text858"
+     style="font-style:normal;font-weight:normal;font-size:169.406px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.23515">
+    <path
+       d="m 156.24414,154.67509 q -3.04931,0 -5.08218,-2.03287 -1.86347,-2.03287 -1.86347,-4.91277 V 42.867131 q 0,-2.879902 1.86347,-4.743368 2.03287,-2.032872 4.91277,-2.032872 h 59.46151 q 2.8799,0 4.91277,1.863466 2.03288,1.863466 2.03288,4.743368 0,2.710496 -2.03288,4.573962 -2.03287,1.863466 -4.91277,1.863466 h -53.36289 l 1.01643,-1.355248 v 41.504471 l -0.84703,-1.863466 h 45.57022 q 2.8799,0 4.91277,2.032872 2.03288,1.863466 2.03288,4.743369 0,2.54109 -2.03288,4.573962 -2.03287,1.863467 -4.91277,1.863467 h -45.90903 l 1.18584,-1.524655 v 48.619525 q 0,2.8799 -2.03287,4.91277 -2.03287,2.03287 -4.91277,2.03287 z"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Quicksand;-inkscape-font-specification:'Quicksand Medium';fill:#ffffff;stroke-width:4.23515"
+       id="path856" />
+  </g>
 </svg>

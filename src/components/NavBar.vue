@@ -3,7 +3,7 @@
     <div class="navbar-collapse collapse w-100 navCollapse order-1 order-md-0">
       <ul class="navbar-nav ml-auto text-center">
         <li class="nav-item">
-          <a class="nav-link" href="#" :class="navText">Présentation</a>
+          <a class="nav-link" href="#about" :class="navText">Présentation</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" :class="navText">Offres</a>
@@ -17,22 +17,20 @@
       ><img
         v-if="!scrolled"
         src="../assets/logo.svg"
-        width="55"
-        height="55"
+        width="70"
+        height="70"
         class="d-md-block align-top mx-md-auto mr-3"
-        alt=""
-        id="logo"
-      />
+        alt="Logo Magalhaes Florian"
+        id="logo" />
       <img
         v-if="scrolled"
         src="../assets/logoOutline.svg"
-        width="55"
-        height="55"
+        width="70"
+        height="70"
         class="d-md-block align-top mx-md-auto mr-3"
         alt=""
         id="logo"
-      />Magalhaes Florian</a
-    >
+    /></a>
     <button
       class="navbar-toggler"
       type="button"
@@ -55,58 +53,6 @@
       </ul>
     </div>
   </nav>
-  <p>
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-    ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-    tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-    ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est
-    et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
-    commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt
-    condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-    Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus,
-    neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna
-    eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
-    porttitor, facilisis luctus, metus
-  </p>
-  <p>
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-    ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-    tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-    ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est
-    et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
-    commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt
-    condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-    Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus,
-    neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna
-    eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
-    porttitor, facilisis luctus, metus
-  </p>
-  <p>
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-    ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-    tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-    ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est
-    et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
-    commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt
-    condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-    Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus,
-    neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna
-    eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
-    porttitor, facilisis luctus, metus
-  </p>
-  <p>
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-    ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-    tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-    ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est
-    et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
-    commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt
-    condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-    Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus,
-    neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna
-    eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
-    porttitor, facilisis luctus, metus
-  </p>
 </template>
 
 <script>
@@ -153,22 +99,15 @@ export default {
 
 <style scoped lang="scss">
 nav {
-  @media screen and (max-width: 374px) {
-    img {
-      height: 30px;
-      width: 30px;
-    }
-    button i {
-      height: 1em;
-      width: 1em;
-    }
-    a {
-      font-size: 1em;
+  ul a {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
     }
   }
   &.nav {
     &--scrolled {
-      background-color: #607d8bff;
+      background-color: #455A64;
       transition: all 1.5s ease;
     }
     &--notScrolled {
@@ -181,17 +120,14 @@ nav {
       color: white;
     }
     &-btn--notScrolled {
-      color: #607d8bff;
+      color: #455A64;
     }
     &-text--scrolled {
       color: white;
     }
     &-text--notScrolled {
-      color: #2c3e50;
+      color: #455A64;
     }
   }
-}
-p {
-  margin-top: 7em;
 }
 </style>
