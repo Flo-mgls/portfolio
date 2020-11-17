@@ -6,7 +6,7 @@
           <a class="nav-link" href="#about" :class="navText">Présentation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" :class="navText">Offres</a>
+          <a class="nav-link" href="#offers" :class="navText">Offres</a>
         </li>
       </ul>
     </div>
