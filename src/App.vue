@@ -3,8 +3,11 @@
     <NavBar />
     <Header />
   </header>
-  <Intro />
-  <Offers />
+  <main>
+    <Intro />
+    <Offers />
+    <Skills />
+  </main>
 </template>
 
 <script>
@@ -12,6 +15,7 @@ import NavBar from "./components/NavBar.vue";
 import Header from "./components/Header.vue";
 import Intro from "./components/Intro.vue";
 import Offers from "./components/Offers.vue";
+import Skills from "./components/Skills.vue";
 
 export default {
   name: "App",
@@ -20,6 +24,7 @@ export default {
     Header,
     Intro,
     Offers,
+    Skills,
   },
 };
 </script>

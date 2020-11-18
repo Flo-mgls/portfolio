@@ -88,7 +88,7 @@ section {
 }
 .intro-text {
   border-radius: 10px;
-  border: 1px solid #455A64;
+  border: 1px solid #9eadb577;
   box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.2);
 }
 a {

@@ -23,7 +23,7 @@
               class="flipCard--front d-flex align-items-center justify-content-center px-1"
             >
               <h3 class="text-uppercase">Site vitrine</h3>
-              <i class="fas fa-fingerprint fa-lg position-absolute"></i>
+              <i class="fas fa-fingerprint fa-lg position-absolute" aria-hidden="true"></i>
             </div>
             <div class="flipCard--back d-flex align-items-center justify-content-center px-1">
               <p>
@@ -40,7 +40,7 @@
               class="flipCard--front d-flex align-items-center justify-content-center px-1"
             >
               <h3 class="text-uppercase">Site e-commerce</h3>
-              <i class="fas fa-fingerprint fa-lg position-absolute"></i>
+              <i class="fas fa-fingerprint fa-lg position-absolute" aria-hidden="true"></i>
             </div>
             <div class="flipCard--back d-flex align-items-center justify-content-center px-1">
               <p>
@@ -57,7 +57,7 @@
               class="flipCard--front d-flex align-items-center justify-content-center px-1"
             >
               <h3 class="text-uppercase">Site dynamique</h3>
-              <i class="fas fa-fingerprint fa-lg position-absolute"></i>
+              <i class="fas fa-fingerprint fa-lg position-absolute" aria-hidden="true"></i>
             </div>
             <div class="flipCard--back d-flex align-items-center justify-content-center px-1">
               <p>
@@ -82,7 +82,6 @@ export default {
 <style scoped lang="scss">
 #offers {
   padding-top: 8em;
-  padding-bottom: 20em;
   .offers {
     &-intro {
       background-color: #455A64;
@@ -124,7 +123,6 @@ export default {
           -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
           border-radius: 10px;
-          border: 1px solid #455A64;
           box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.2);
           background-color: white;
         }

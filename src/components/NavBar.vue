@@ -45,7 +45,7 @@
     <div class="collapse navbar-collapse w-100 navCollapse order-2 order-md-2">
       <ul class="navbar-nav mr-auto text-center">
         <li class="nav-item">
-          <a class="nav-link" href="#" :class="navText">Compétences</a>
+          <a class="nav-link" href="#skills" :class="navText">Compétences</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" :class="navText">Contact</a>
