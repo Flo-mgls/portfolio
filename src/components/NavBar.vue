@@ -52,6 +52,15 @@
         </li>
       </ul>
     </div>
+    <div class="collapse navbar-collapse navCollapse order-3 nav-contact">
+      <ul class="navbar-nav mr-auto text-center">
+        <li class="nav-item">
+          <a class="nav-link nav-contact--link" href="#contact" :class="navText"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
   </nav>
 </template>
 
@@ -102,12 +111,12 @@ nav {
   ul a {
     transition: all 0.3s ease-in-out;
     &:hover {
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
   }
   &.nav {
     &--scrolled {
-      background-color: #455A64;
+      background-color: #455a64;
       transition: all 1.5s ease;
     }
     &--notScrolled {
@@ -120,13 +129,28 @@ nav {
       color: white;
     }
     &-btn--notScrolled {
-      color: #455A64;
+      color: #455a64;
     }
     &-text--scrolled {
       color: white;
+      border-color: white !important;
     }
     &-text--notScrolled {
-      color: #455A64;
+      color: #455a64;
+    }
+    &-contact {
+      @media screen and (min-width: 768px) {
+        position: absolute;
+        right: 20px;
+        .nav-contact--link {
+          border-radius: 30px;
+          border: 1px solid #455a64;
+          &:hover {
+            background-color: #455a64;
+            color: white;
+          }
+        }
+      }
     }
   }
 }
