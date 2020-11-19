@@ -11,6 +11,7 @@
   </main>
   <footer>
     <Contact />
+    <Footer />
   </footer>
 </template>
 
@@ -22,6 +23,7 @@ import Offers from "./components/Offers.vue";
 import Skills from "./components/Skills.vue";
 import Portfolio from "./components/Portfolio.vue";
 import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -33,6 +35,7 @@ export default {
     Skills,
     Portfolio,
     Contact,
+    Footer
   },
 };
 </script>

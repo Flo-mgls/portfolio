@@ -5,7 +5,7 @@
         <div class="col-6 col-md-3">
           <a href="mailto:m.f.pro@outlook.com"
             ><i
-              class="fas fa-envelope fa-4x d-block mb-1 mt-4 mt-md-1"
+              class="fas fa-envelope fa-3x d-block mb-1 mt-4 mt-md-1"
               aria-hidden="true"
               title="Email"
             ></i
@@ -15,7 +15,7 @@
         <div class="col-6 col-md-3 order-md-last">
           <a href="tel:0668886240"
             ><i
-              class="fas fa-mobile-alt fa-4x d-block mb-1 mt-4 mt-md-1"
+              class="fas fa-mobile-alt fa-3x d-block mb-1 mt-4 mt-md-1"
               aria-hidden="true"
               title="Mobile"
             ></i
@@ -25,7 +25,7 @@
         <div class="col-6 col-md-3">
           <a href="https://www.linkedin.com/in/florian-magalhaes/"
             ><i
-              class="fab fa-linkedin-in fa-4x d-block mb-1 mt-4 mt-md-1"
+              class="fab fa-linkedin-in fa-3x d-block mb-1 mt-4 mt-md-1"
               aria-hidden="true"
               title="LinkedIn"
             ></i
@@ -35,7 +35,7 @@
         <div class="col-6 col-md-3">
           <a href="https://github.com/Flo-mgls"
             ><i
-              class="fab fa-github-alt fa-4x d-block mb-1 mt-4 mt-md-1"
+              class="fab fa-github-alt fa-3x d-block mb-1 mt-4 mt-md-1"
               aria-hidden="true"
               title="Github"
             ></i
