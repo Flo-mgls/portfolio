@@ -107,7 +107,6 @@ export default {
 <style scoped lang="scss">
 #portfolio {
   padding-top: 6em;
-  padding-bottom: 20em;
   .underline {
     height: 2px;
     width: 50px;

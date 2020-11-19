@@ -9,6 +9,9 @@
     <Skills />
     <Portfolio />
   </main>
+  <footer>
+    <Contact />
+  </footer>
 </template>
 
 <script>
@@ -18,6 +21,7 @@ import Intro from "./components/Intro.vue";
 import Offers from "./components/Offers.vue";
 import Skills from "./components/Skills.vue";
 import Portfolio from "./components/Portfolio.vue";
+import Contact from "./components/Contact.vue";
 
 export default {
   name: "App",
@@ -27,7 +31,8 @@ export default {
     Intro,
     Offers,
     Skills,
-    Portfolio
+    Portfolio,
+    Contact,
   },
 };
 </script>
@@ -38,6 +43,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #455A64;
+  color: #455a64;
 }
 </style>
