@@ -66,7 +66,7 @@
                 </div>
               </splide-slide>
               <splide-slide>
-                <div class="skills-intro--infos pb-4">
+                <div class="skills-intro--infos pb-4 px-2">
                   <h3 class="text-uppercase my-4">Un gage de qualité...</h3>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item">Code propre et maintenable</li>
@@ -113,8 +113,7 @@ export default {
 
 <style scoped lang="scss">
 #skills {
-  padding-top: 4em;
-  padding-bottom: 20em;
+  padding-top: 6em;
   .position-relative {
     top: -80px;
   }

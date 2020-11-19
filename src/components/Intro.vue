@@ -83,7 +83,7 @@ export default {
     font-size: 1.5em;
   }
 }
-section {
+#about {
   padding-top: 6em;
 }
 .intro-text {

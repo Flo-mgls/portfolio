@@ -48,7 +48,7 @@
           <a class="nav-link" href="#skills" :class="navText">Compétences</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" :class="navText">Contact</a>
+          <a class="nav-link" href="#portfolio" :class="navText">Portfolio</a>
         </li>
       </ul>
     </div>

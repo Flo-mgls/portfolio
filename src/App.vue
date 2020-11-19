@@ -7,6 +7,7 @@
     <Intro />
     <Offers />
     <Skills />
+    <Portfolio />
   </main>
 </template>
 
@@ -16,6 +17,7 @@ import Header from "./components/Header.vue";
 import Intro from "./components/Intro.vue";
 import Offers from "./components/Offers.vue";
 import Skills from "./components/Skills.vue";
+import Portfolio from "./components/Portfolio.vue";
 
 export default {
   name: "App",
@@ -25,6 +27,7 @@ export default {
     Intro,
     Offers,
     Skills,
+    Portfolio
   },
 };
 </script>

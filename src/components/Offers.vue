@@ -25,7 +25,7 @@
               <h3 class="text-uppercase">Site vitrine</h3>
               <i class="fas fa-fingerprint fa-lg position-absolute" aria-hidden="true"></i>
             </div>
-            <div class="flipCard--back d-flex align-items-center justify-content-center px-1">
+            <div class="flipCard--back d-flex align-items-center justify-content-center px-2">
               <p>
                 Pellentesque habitant morbi tristique senectus et netus et
                 malesuada fames ac turpis egestas. Vestibulum tortor quam,
@@ -42,7 +42,7 @@
               <h3 class="text-uppercase">Site e-commerce</h3>
               <i class="fas fa-fingerprint fa-lg position-absolute" aria-hidden="true"></i>
             </div>
-            <div class="flipCard--back d-flex align-items-center justify-content-center px-1">
+            <div class="flipCard--back d-flex align-items-center justify-content-center px-2">
               <p>
                 Pellentesque habitant morbi tristique senectus et netus et
                 malesuada fames ac turpis egestas. Vestibulum tortor quam,
@@ -59,7 +59,7 @@
               <h3 class="text-uppercase">Site dynamique</h3>
               <i class="fas fa-fingerprint fa-lg position-absolute" aria-hidden="true"></i>
             </div>
-            <div class="flipCard--back d-flex align-items-center justify-content-center px-1">
+            <div class="flipCard--back d-flex align-items-center justify-content-center px-2">
               <p>
                 Pellentesque habitant morbi tristique senectus et netus et
                 malesuada fames ac turpis egestas. Vestibulum tortor quam,
@@ -81,7 +81,7 @@ export default {
 
 <style scoped lang="scss">
 #offers {
-  padding-top: 8em;
+  padding-top: 6em;
   .offers {
     &-intro {
       background-color: #455A64;
