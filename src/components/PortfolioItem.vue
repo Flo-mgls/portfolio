@@ -1,6 +1,8 @@
 <template>
+<!-- PORTFOLIO ITEM -->
   <div class="portfolio-item">
     <div class="flipCard">
+      <!-- FRONT - SITE NAME -->
       <div
         class="flipCard--front d-flex align-items-center justify-content-center px-1"
       >
@@ -10,6 +12,8 @@
           aria-hidden="true"
         ></i>
       </div>
+      <!-- END FRONT - SITE NAME -->
+      <!-- BACK - SITE INFO -->
       <div
         class="flipCard--back d-flex align-items-center justify-content-center px-2"
       >
@@ -31,8 +35,10 @@
           </div>
         </div>
       </div>
+      <!-- END BACK - SITE INFO -->
     </div>
   </div>
+  <!-- END PORTFOLIO ITEM -->
 </template>
 
 <script>

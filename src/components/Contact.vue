@@ -1,7 +1,9 @@
 <template>
+<!-- CONTACT -->
   <section id="contact">
     <div class="container-fluid contact p-3">
       <div class="row">
+        <!-- MAIL -->
         <div class="col-6 col-md-3">
           <a href="mailto:m.f.pro@outlook.com"
             ><i
@@ -12,6 +14,8 @@
             ><span class="sr-only">Email</span>m.f.pro@outlook.com</a
           >
         </div>
+        <!-- END MAIL -->
+        <!-- PHONE -->
         <div class="col-6 col-md-3 order-md-last">
           <a href="tel:0668886240"
             ><i
@@ -22,16 +26,8 @@
             ><span class="sr-only">Mobile</span>06 68 88 62 40</a
           >
         </div>
-        <div class="col-6 col-md-3">
-          <a href="https://www.linkedin.com/in/florian-magalhaes/"
-            ><i
-              class="fab fa-linkedin-in fa-3x d-block mb-1 mt-4 mt-md-1"
-              aria-hidden="true"
-              title="LinkedIn"
-            ></i
-            ><span class="sr-only">LinkedIn</span>@florian-magalhaes</a
-          >
-        </div>
+        <!-- END PHONE -->
+        <!-- GITHUB -->
         <div class="col-6 col-md-3">
           <a href="https://github.com/Flo-mgls"
             ><i
@@ -42,9 +38,23 @@
             ><span class="sr-only">Github</span>@Flo-mgls</a
           >
         </div>
+        <!-- END GITHUB -->
+        <!-- LINKEDIN -->
+        <div class="col-6 col-md-3">
+          <a href="https://www.linkedin.com/in/florian-magalhaes/"
+            ><i
+              class="fab fa-linkedin-in fa-3x d-block mb-1 mt-4 mt-md-1"
+              aria-hidden="true"
+              title="LinkedIn"
+            ></i
+            ><span class="sr-only">LinkedIn</span>@florian-magalhaes</a
+          >
+        </div>
+        <!-- END LINKEDIN -->
       </div>
     </div>
   </section>
+  <!-- END CONTACT -->
 </template>
 
 <script>

@@ -1,9 +1,11 @@
 <template>
+  <!-- PORTFOLIO -->
   <section id="portfolio">
     <div class="container">
       <h2 class="text-uppercase mb-1">Portfolio</h2>
       <div class="underline mx-auto mb-5"></div>
       <div class="row justify-content-center">
+        <!-- ITEM 1 -->
         <div class="col-12 col-md-6 col-lg-4 my-3">
           <PortfolioItem siteName="Deckgen" githubLink="hey">
             <template v-slot:info>
@@ -32,8 +34,10 @@
             </template>
           </PortfolioItem>
         </div>
+        <!-- END ITEM 1 -->
+        <!-- ITEM 2 -->
         <div class="col-12 col-md-6 col-lg-4 my-3">
-         <PortfolioItem siteName="Deckgen" githubLink="hey">
+          <PortfolioItem siteName="Deckgen" githubLink="hey">
             <template v-slot:info>
               ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non
               enim in turpis pulvinar facilisis.
@@ -60,8 +64,10 @@
             </template>
           </PortfolioItem>
         </div>
+        <!-- END ITEM 2 -->
+        <!-- ITEM 3 -->
         <div class="col-12 col-md-6 col-lg-4 my-3">
-         <PortfolioItem siteName="Deckgen" githubLink="hey">
+          <PortfolioItem siteName="Deckgen" githubLink="hey">
             <template v-slot:info>
               ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non
               enim in turpis pulvinar facilisis.
@@ -88,9 +94,11 @@
             </template>
           </PortfolioItem>
         </div>
+        <!-- END ITEM 3 -->
       </div>
     </div>
   </section>
+  <!-- END PORTFOLIO -->
 </template>
 
 <script>

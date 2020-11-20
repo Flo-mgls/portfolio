@@ -1,10 +1,12 @@
 <template>
+  <!-- HEADER -->
   <div class="container-fluid">
     <h1 class="text-uppercase font-weight-lighter">
       Magalhaes Florian
       <span class="d-block h5 font-weight-bold">{{ subtitle }}</span>
     </h1>
   </div>
+  <!-- END HEADER -->
 </template>
 
 <script>
@@ -18,6 +20,7 @@ export default {
   },
   methods: {
     writingSubtitle() {
+      //Animation like keyboard writing
       let subtitle = "Développeur Web Fullstack";
       let speed = 100;
 

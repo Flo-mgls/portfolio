@@ -1,7 +1,9 @@
 <template>
-  <section id="about">
+  <!-- INTRO -->
+  <section id="intro">
     <div class="container">
       <div class="row no-gutters">
+        <!-- LOGO  -->
         <div class="col-lg-6 col-md-4 position-relative">
           <div class="intro-logo position-absolute">
             <img
@@ -10,10 +12,10 @@
             />
           </div>
         </div>
+        <!-- END LOGO -->
+        <!-- PRESENTATION -->
         <div class="intro-text col-lg-6 col-md-8 px-4 px-md-5 py-5">
-          <h2 class="text-uppercase mb-4">
-            Votre développeur...
-          </h2>
+          <h2 class="text-uppercase mb-4">Votre développeur...</h2>
           <p>
             Pellentesque habitant morbi tristique senectus et netus et malesuada
             fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
@@ -28,14 +30,16 @@
           </p>
           <a
             class="btn text-uppercase"
-            href="/CVMagalhaesFlorian.pdf"
+            href="https://www.linkedin.com/in/florian-magalhaes/"
             role="button"
-            >CV Complet</a
+            >LinkedIn</a
           >
         </div>
+        <!-- END PRESENTATION -->
       </div>
     </div>
   </section>
+  <!-- END INTRO -->
 </template>
 
 <script>
@@ -83,7 +87,7 @@ export default {
     font-size: 1.5em;
   }
 }
-#about {
+#intro {
   padding-top: 6em;
 }
 .intro-text {
@@ -92,11 +96,11 @@ export default {
   box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.2);
 }
 a {
-  color: #455A64;
+  color: #455a64;
   border-radius: 30px;
-  border: 1px solid #455A64;
+  border: 1px solid #455a64;
   &:hover {
-    background-color: #455A64;
+    background-color: #455a64;
     color: white;
   }
 }

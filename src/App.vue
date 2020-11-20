@@ -1,18 +1,24 @@
 <template>
+  <!-- HEADER -->
   <header>
     <NavBar />
     <Header />
   </header>
+  <!-- END HEADER -->
+  <!-- MAIN -->
   <main>
     <Intro />
     <Offers />
     <Skills />
     <Portfolio />
   </main>
+  <!-- END MAIN -->
+  <!-- FOOTER -->
   <footer>
     <Contact />
     <Footer />
   </footer>
+  <!-- END FOOTER -->
 </template>
 
 <script>
@@ -35,7 +41,7 @@ export default {
     Skills,
     Portfolio,
     Contact,
-    Footer
+    Footer,
   },
 };
 </script>

@@ -1,15 +1,19 @@
 <template>
+  <!-- NAV -->
   <nav class="navbar navbar-expand-md fixed-top py-0" :class="nav">
+    <!-- LEFT NAV -->
     <div class="navbar-collapse collapse w-100 navCollapse order-1 order-md-0">
       <ul class="navbar-nav ml-auto text-center">
         <li class="nav-item">
-          <a class="nav-link" href="#about" :class="navText">Présentation</a>
+          <a class="nav-link" href="#intro" :class="navText">Présentation</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#offers" :class="navText">Offres</a>
         </li>
       </ul>
     </div>
+    <!-- END LEFT NAV -->
+    <!-- CENTER NAV - LOGO -->
     <a
       class="navbar-brand text-uppercase font-weight-bold d-flex d-md-block align-items-center mx-md-5"
       href="#"
@@ -31,6 +35,8 @@
         alt=""
         id="logo"
     /></a>
+    <!-- END CENTER NAV - LOGO -->
+    <!-- BUTTON NAV -->
     <button
       class="navbar-toggler"
       type="button"
@@ -42,6 +48,8 @@
     >
       <i class="fas fa-ellipsis-h" :class="navBtn"></i>
     </button>
+    <!-- END BUTTON NAV -->
+    <!-- RIGHT NAV -->
     <div class="collapse navbar-collapse w-100 navCollapse order-2 order-md-2">
       <ul class="navbar-nav mr-auto text-center">
         <li class="nav-item">
@@ -52,6 +60,8 @@
         </li>
       </ul>
     </div>
+    <!-- END RIGHT NAV -->
+    <!-- CONTACT NAV -->
     <div class="collapse navbar-collapse navCollapse order-3 nav-contact">
       <ul class="navbar-nav mr-auto text-center">
         <li class="nav-item">
@@ -61,7 +71,9 @@
         </li>
       </ul>
     </div>
+    <!-- END CONTACT NAV -->
   </nav>
+  <!-- END NAV -->
 </template>
 
 <script>
@@ -69,7 +81,7 @@ export default {
   name: "NavBar",
   data: () => {
     return {
-      scrolled: false,
+      scrolled: false, //If page has been scrolled
       nav: "nav--notScrolled",
       navBtn: "nav-btn--notScrolled",
       navText: "nav-text--notScrolled",
@@ -77,6 +89,7 @@ export default {
   },
   methods: {
     onScroll() {
+      //Determine if page has been scrolled
       if (window.pageYOffset > 0) {
         this.scrolled = true;
       } else {
@@ -85,6 +98,7 @@ export default {
     },
   },
   mounted() {
+    //Trigger method if scroll
     window.addEventListener("scroll", this.onScroll);
   },
   unmounted() {
@@ -92,6 +106,7 @@ export default {
   },
   watch: {
     scrolled() {
+      //Check if data scrolled have been changed
       if (this.scrolled) {
         this.nav = "nav--scrolled";
         this.navBtn = "nav-btn--scrolled";

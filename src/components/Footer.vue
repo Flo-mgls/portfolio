@@ -1,4 +1,5 @@
 <template>
+  <!-- FOOTER INFO -->
   <section id="footer" class="pt-3">
     <div class="container-fluid">
       <p class="mb-0">
@@ -6,6 +7,7 @@
       </p>
     </div>
   </section>
+  <!-- END FOOTER INFO -->
 </template>
 
 <script>
