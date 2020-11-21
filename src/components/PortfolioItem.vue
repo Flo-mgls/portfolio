@@ -1,5 +1,5 @@
 <template>
-<!-- PORTFOLIO ITEM -->
+  <!-- PORTFOLIO ITEM -->
   <div class="portfolio-item">
     <div class="flipCard">
       <!-- FRONT - SITE NAME -->
@@ -15,9 +15,9 @@
       <!-- END FRONT - SITE NAME -->
       <!-- BACK - SITE INFO -->
       <div
-        class="flipCard--back d-flex align-items-center justify-content-center px-2"
+        class="flipCard--back d-flex align-items-center justify-content-center p-2"
       >
-        <div class="row">
+        <div class="row align-items-center justify-content-center mb-2">
           <div class="col-9">
             <div class="row">
               <div class="col-12">
@@ -25,13 +25,33 @@
                   <slot name="info"></slot>
                 </p>
               </div>
-              <div class="col-12 d-flex align-items-center justify-content-around">
+              <div
+                class="col-12 d-flex align-items-center justify-content-around"
+              >
                 <slot name="techno"></slot>
               </div>
             </div>
           </div>
-          <div class="col-3 d-flex align-items-center justify-content-center">
-              <a :href="githubLink"><i class="fab fa-github-alt fa-3x"></i></a>
+          <div
+            class="col-3 d-flex align-items-center justify-content-center flex-column"
+            v-if="githubLink || siteLink"
+          >
+            <a :href="githubLink" class="py-2" v-if="githubLink"
+              ><i
+                class="fab fa-github-alt fa-3x"
+                aria-hidden="true"
+                title="Lien Github"
+              ></i
+              ><span class="sr-only">Lien Github</span></a
+            >
+            <a :href="siteLink" class="py-2" v-if="siteLink"
+              ><i
+                class="fas fa-search fa-3x"
+                aria-hidden="true"
+                title="Lien du site"
+              ></i
+              ><span class="sr-only">Lien du site</span></a
+            >
           </div>
         </div>
       </div>
@@ -52,6 +72,9 @@ export default {
     githubLink: {
       type: String,
     },
+    siteLink: {
+      type: String,
+    },
   },
 };
 </script>
@@ -60,7 +83,7 @@ export default {
 .portfolio-item {
   background-color: transparent;
   width: auto;
-  height: 200px;
+  height: 250px;
   perspective: 1000px;
   &:hover .flipCard {
     transform: rotateY(180deg);
@@ -71,14 +94,15 @@ export default {
     height: 100%;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    i {
+    .fa-fingerprint {
+      color: #9eadb5;
       bottom: 10px;
       right: 10px;
     }
     a {
       color: #9eadb5;
       &:hover {
-        color: #455A64;
+        color: #455a64;
       }
     }
     &--front,

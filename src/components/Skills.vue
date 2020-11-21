@@ -9,12 +9,29 @@
         >
           <h2 class="text-uppercase mb-4">Mes compétences sont vôtres...</h2>
           <p>
-            Pellentesque habitant morbi tristique senectus et netus et malesuada
-            fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-            ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-            egestas semper. Aenean ultricies mi vitae est. Mauris placerat
-            eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
-            Vestibulum erat wisi, condimentum sed, commodo vitae.
+            Une bonne présence numérique est une présence qui reflète la qualité
+            de vos services, mais pas seulement. Votre <strong>site web</strong> sera la première
+            image que votre client verra, celui-ci se doit d'être à la hauteur.
+            J'utilise pour cela les <b>dernières technologies</b> disponibles pour
+            lesquelles je fais en sorte d'être constamment à jour afin de vous
+            fournir un <strong>site web</strong> <b>facilement maintenable</b> dans le temps mais aussi
+            et surtout qui <b>respecte les bonnes normes</b> mises en place par la <b>W3C</b>
+            (organisme crée par Tim Berners-Lee, l'homme à l'origine du web).
+            <br />
+            <br />
+            Afin d'être bien référencé, Google prend en compte plusieurs
+            critères, il y a bien sûr les <b>mots-clés</b> qui ont une grande
+            importance, mais aussi <b>l'adaptabilité du site</b> à différents supports,
+            notamment aux mobiles: étant donné qu'aujourd'hui la majorité des
+            sites sont consultés sur mobile, Google y accorde beaucoup
+            d'importance. Enfin un autre point important est la <b>vitesse
+            d'affichage</b> de votre site: Google ne veut pas que ses utilisateurs
+            se retrouvent à attendre à cause d'un site peu optimisé et ceci
+            jouera donc sur son référencement.
+            <br />
+            <br />
+            Vous l'aurez compris, développer votre site, oui, mais surtout: le développer
+            en respectant tous ces points et bien d'autres.
           </p>
         </div>
         <!-- END SKILLS INFO -->

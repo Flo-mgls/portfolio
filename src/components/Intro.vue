@@ -17,16 +17,26 @@
         <div class="intro-text col-lg-6 col-md-8 px-4 px-md-5 py-5">
           <h2 class="text-uppercase mb-4">Votre développeur...</h2>
           <p>
-            Pellentesque habitant morbi tristique senectus et netus et malesuada
-            fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-            ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-            egestas semper. Aenean ultricies mi vitae est. Mauris placerat
-            eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
-            Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit
-            amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros
-            ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim
-            in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id
-            cursus faucibus, tortor neque egestas augue.
+            Mes premiers pas dans l'informatique remontent à 5 ans où j'avais
+            mis en ligne sur le Google Play deux petits jeux mobiles, la
+            création et ce qu'on ressent lorsque celle-ci est en ligne et
+            fonctionne absolument comme nous l'avons prévu, est sans aucun doute
+            l'une des choses qui m'a le plus plu.
+            <br />
+            En arrivant dans le supérieur j'ai choisi d'étudier la biologie,
+            une autre de mes grandes passions: la science. Toutefois <strong>l'informatique</strong>
+            ne m'a jamais quitté et j'ai commencé à suivre des cours dans le
+            domaine du <strong>développement web</strong>, voyant que cela me plaisait énormément
+            j'ai alors entrepris de valider mes acquis à l'aide d'un diplôme que
+            j'ai obtenu en octobre 2020: <strong>Développeur web full stack</strong>.
+            <br /><br />
+            Je vous propose donc mon savoir-faire, celui-ci en phase avec les
+            dernières lignes directives du développement, afin de vous aider à
+            vous faire une présence dans cet énorme monde qu'est le web.
+            <br /><br />
+            Je suis disponible pour travailler avec vous à distance, partout
+            dans le monde, avec la possibilité de se rencontrer si vous êtes en
+            <strong>Bourgogne et dans les villes alentours telles que Dijon et Lyon.</strong>
           </p>
           <a
             class="btn text-uppercase"
@@ -55,7 +65,7 @@ export default {
     width: 290px;
   }
   .intro-logo {
-    top: 100px;
+    top: 300px;
     left: -10px;
     z-index: 1;
   }
@@ -66,7 +76,7 @@ export default {
     width: 410px;
   }
   .intro-logo {
-    top: 50px;
+    top: 250px;
     left: 100px;
     z-index: 1;
   }
@@ -77,7 +87,7 @@ export default {
     width: 500px;
   }
   .intro-logo {
-    top: 0px;
+    top: 100px;
     left: 100px;
     z-index: 1;
   }

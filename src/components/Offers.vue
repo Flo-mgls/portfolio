@@ -7,12 +7,15 @@
         <div class="col-md-8 col-lg-6 px-4 px-md-5 py-5 offers-intro">
           <h2 class="text-uppercase mb-4">La solution qui vous convient...</h2>
           <p>
-            Pellentesque habitant morbi tristique senectus et netus et malesuada
-            fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-            ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-            egestas semper. Aenean ultricies mi vitae est. Mauris placerat
-            eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
-            Vestibulum erat wisi, condimentum sed, commodo vitae.
+            Avoir une présence sur le net en 2020 n'est plus une chose à
+            négliger et pour certains cela est même une nécessité, surtout en
+            ces temps. À différentes idées, différentes solutions, cependant
+            pour chacune d'entre elles, la qualité de ma prestation sera mon
+            objectif principal. Cela passe bien sûr par le développement de
+            votre site, mais aussi et au besoin par la maintenance de celui-ci,
+            son évolution au fil de la vôtre et le suivi de ses statistiques.
+            <br />
+            Mettre en œuvre vos idées, oui, mais le plus important: les perdurer.
           </p>
         </div>
       </div>
@@ -36,12 +39,17 @@
             <!-- FRONT - OFFER NAME -->
             <!-- BACK - OFFER INFO -->
             <div
-              class="flipCard--back d-flex align-items-center justify-content-center px-2"
+              class="flipCard--back d-flex align-items-center justify-content-center p-2"
             >
               <p>
-                Pellentesque habitant morbi tristique senectus et netus et
-                malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                feugiat vitae.
+                Vous avez une entreprise et souhaitez être <strong>présent sur le web</strong> ?
+                <br />
+                La possibilité d'être trouvé par vos futurs clients, la
+                présentation de vos différents services ou alors tout simplement
+                une idée que vous avez envie de partager...
+                <br />
+                Un <strong>site vitrine</strong> est la solution la plus commune mais aussi la
+                plus efficace
               </p>
             </div>
             <!-- BACK - OFFER INFO -->
@@ -64,12 +72,15 @@
             <!-- END FRONT - OFFER NAME -->
             <!-- BACK - OFFER INFO -->
             <div
-              class="flipCard--back d-flex align-items-center justify-content-center px-2"
+              class="flipCard--back d-flex align-items-center justify-content-center p-2"
             >
               <p>
-                Pellentesque habitant morbi tristique senectus et netus et
-                malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                feugiat vitae.
+                Le cœur de votre entreprise est de vendre différents produits et
+                vous souhaitez avoir une présence dans le plus grand marché de
+                notre siècle, le web ? Un <strong>site e-commerce</strong>, lorsque votre but est
+                de proposer et vendre vos produits, est indispensable.
+                <br />
+                En 2019, <b>87,5%</b> des internautes français ont acheté en ligne
               </p>
             </div>
             <!-- END BACK - OFFER INFO -->
@@ -92,12 +103,15 @@
             <!-- END FRONT - OFFER NAME -->
             <!-- BACK - OFFER INFO -->
             <div
-              class="flipCard--back d-flex align-items-center justify-content-center px-2"
+              class="flipCard--back d-flex align-items-center justify-content-center p-2"
             >
               <p>
-                Pellentesque habitant morbi tristique senectus et netus et
-                malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                feugiat vitae.
+                Votre projet ne rentre ni dans le cadre d'un <strong>site vitrine</strong> ni
+                dans celui d'un <strong>site e-commerce</strong> ?
+                <br />
+                Un réseau social, un outil, ou autre chose... Tout peut être
+                imaginé, tout peut être développé, n'hésitez pas à prendre
+                contact afin de discuter de votre <b>projet</b>
               </p>
             </div>
             <!-- END BACK - OFFER INFO -->
@@ -136,7 +150,10 @@ export default {
       &--3 {
         background-color: transparent;
         width: auto;
-        height: 200px;
+        height: 260px;
+        @media screen and (min-width: 768px) {
+          height: 450px;
+        }
         perspective: 1000px;
         &:hover .flipCard {
           transform: rotateY(180deg);
@@ -149,6 +166,7 @@ export default {
         transition: transform 0.8s;
         transform-style: preserve-3d;
         i {
+          color: #9eadb5;
           bottom: 10px;
           right: 10px;
         }
