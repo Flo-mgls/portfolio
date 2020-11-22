@@ -1,8 +1,8 @@
 <template>
   <!-- NAV -->
-  <nav class="navbar navbar-expand-md fixed-top py-0" :class="nav">
+  <nav class="navbar navbar-expand-lg fixed-top py-0" :class="nav">
     <!-- LEFT NAV -->
-    <div class="navbar-collapse collapse w-100 navCollapse order-1 order-md-0">
+    <div class="navbar-collapse collapse w-100 navCollapse order-1 order-lg-0">
       <ul class="navbar-nav ml-auto text-center">
         <li class="nav-item">
           <a class="nav-link" href="#intro" :class="navText">Présentation</a>
@@ -15,7 +15,7 @@
     <!-- END LEFT NAV -->
     <!-- CENTER NAV - LOGO -->
     <a
-      class="navbar-brand text-uppercase font-weight-bold d-flex d-md-block align-items-center mx-md-5"
+      class="navbar-brand text-uppercase font-weight-bold d-flex d-lg-block align-items-center mx-lg-5"
       href="#"
       :class="navText"
       ><img
@@ -50,13 +50,13 @@
     </button>
     <!-- END BUTTON NAV -->
     <!-- RIGHT NAV -->
-    <div class="collapse navbar-collapse w-100 navCollapse order-2 order-md-2">
+    <div class="collapse navbar-collapse w-100 navCollapse order-2 order-lg-2">
       <ul class="navbar-nav mr-auto text-center">
         <li class="nav-item">
           <a class="nav-link" href="#skills" :class="navText">Compétences</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#portfolio" :class="navText">Portfolio</a>
+          <a class="nav-link" href="#portfolio" :class="navText">Réalisations</a>
         </li>
       </ul>
     </div>
@@ -154,7 +154,7 @@ nav {
       color: #455a64;
     }
     &-contact {
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: 992px) {
         position: absolute;
         right: 20px;
         .nav-contact--link {

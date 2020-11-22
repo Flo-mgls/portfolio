@@ -10,6 +10,7 @@
     <Intro />
     <Offers />
     <Skills />
+    <Services />
     <Portfolio />
   </main>
   <!-- END MAIN -->
@@ -27,6 +28,7 @@ import Header from "./components/Header.vue";
 import Intro from "./components/Intro.vue";
 import Offers from "./components/Offers.vue";
 import Skills from "./components/Skills.vue";
+import Services from "./components/Services.vue";
 import Portfolio from "./components/Portfolio.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
@@ -39,6 +41,7 @@ export default {
     Intro,
     Offers,
     Skills,
+    Services,
     Portfolio,
     Contact,
     Footer,
