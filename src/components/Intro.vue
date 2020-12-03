@@ -30,9 +30,9 @@
             j'ai alors entrepris de valider mes acquis à l'aide d'un diplôme que
             j'ai obtenu en octobre 2020: <strong>Développeur web full stack</strong>.
             <br /><br />
-            Je vous propose donc mon savoir-faire, celui-ci en phase avec les
+            <b>Je vous propose donc mon savoir-faire, celui-ci en phase avec les
             dernières lignes directives du développement, afin de vous aider à
-            vous faire une présence dans cet énorme monde qu'est le web.
+            vous faire une présence dans cet énorme monde qu'est le web.</b>
             <br /><br />
             Je suis disponible pour travailler avec vous à distance, partout
             dans le monde, avec la possibilité de se rencontrer si vous êtes en

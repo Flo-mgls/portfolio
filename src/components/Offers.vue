@@ -15,7 +15,13 @@
             votre site, mais aussi et au besoin par la maintenance de celui-ci,
             son évolution au fil de la vôtre et le suivi de ses statistiques.
             <br />
-            Mettre en œuvre vos idées, oui, mais le plus important: les perdurer.
+            <b
+              >Mettre en œuvre vos idées, oui, mais le plus important: les
+              perdurer.</b
+            >
+            <br /><br />
+            N'hésitez pas à <a href="#contact">me contacter</a> afin d'obtenir
+            un devis gratuit.
           </p>
         </div>
       </div>
@@ -42,14 +48,15 @@
               class="flipCard--back d-flex align-items-center justify-content-center p-2"
             >
               <p>
-                Vous avez une entreprise et souhaitez être <strong>présent sur le web</strong> ?
+                Vous avez une entreprise et souhaitez être
+                <strong>présent sur le web</strong> ?
                 <br />
                 La possibilité d'être trouvé par vos futurs clients, la
                 présentation de vos différents services ou alors tout simplement
                 une idée que vous avez envie de partager...
                 <br />
-                Un <strong>site vitrine</strong> est la solution la plus commune mais aussi la
-                plus efficace
+                Un <strong>site vitrine</strong> est la solution la plus commune
+                mais aussi la plus efficace
               </p>
             </div>
             <!-- BACK - OFFER INFO -->
@@ -77,10 +84,12 @@
               <p>
                 Le cœur de votre entreprise est de vendre différents produits et
                 vous souhaitez avoir une présence dans le plus grand marché de
-                notre siècle, le web ? Un <strong>site e-commerce</strong>, lorsque votre but est
-                de proposer et vendre vos produits, est indispensable.
+                notre siècle, le web ? Un <strong>site e-commerce</strong>,
+                lorsque votre but est de proposer et vendre vos produits, est
+                indispensable.
                 <br />
-                En 2019, <b>87,5%</b> des internautes français ont acheté en ligne
+                En 2019, <b>87,5%</b> des internautes français ont acheté en
+                ligne
               </p>
             </div>
             <!-- END BACK - OFFER INFO -->
@@ -106,8 +115,9 @@
               class="flipCard--back d-flex align-items-center justify-content-center p-2"
             >
               <p>
-                Votre projet ne rentre ni dans le cadre d'un <strong>site vitrine</strong> ni
-                dans celui d'un <strong>site e-commerce</strong> ?
+                Votre projet ne rentre ni dans le cadre d'un
+                <strong>site vitrine</strong> ni dans celui d'un
+                <strong>site e-commerce</strong> ?
                 <br />
                 Un réseau social, un outil, ou autre chose... Tout peut être
                 imaginé, tout peut être développé, n'hésitez pas à prendre
@@ -141,6 +151,12 @@ export default {
       padding-bottom: 6em !important;
       @media screen and (min-width: 768px) {
         border-radius: 0 10px 10px 0;
+      }
+      a {
+        color: white;
+        &:hover {
+          text-decoration: none;
+        }
       }
     }
     &-site {

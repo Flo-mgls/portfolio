@@ -10,28 +10,32 @@
           <h2 class="text-uppercase mb-4">Mes compétences sont vôtres...</h2>
           <p>
             Une bonne présence numérique est une présence qui reflète la qualité
-            de vos services, mais pas seulement. Votre <strong>site web</strong> sera la première
-            image que votre client verra, celui-ci se doit d'être à la hauteur.
-            J'utilise pour cela les <b>dernières technologies</b> disponibles pour
-            lesquelles je fais en sorte d'être constamment à jour afin de vous
-            fournir un <strong>site web</strong> <b>facilement maintenable</b> dans le temps mais aussi
-            et surtout qui <b>respecte les bonnes normes</b> mises en place par la <b>W3C</b>
+            de vos services, mais pas seulement. Votre
+            <strong>site web</strong> sera la première image que votre client
+            verra, celui-ci se doit d'être à la hauteur. J'utilise pour cela les
+            <b>dernières technologies</b> disponibles pour lesquelles je fais en
+            sorte d'être constamment à jour afin de vous fournir un
+            <strong>site web</strong> <b>facilement maintenable</b> dans le
+            temps mais aussi et surtout qui
+            <b>respecte les bonnes normes</b> mises en place par la <b>W3C</b>
             (organisme crée par Tim Berners-Lee, l'homme à l'origine du web).
             <br />
             <br />
             Afin d'être bien référencé, Google prend en compte plusieurs
             critères, il y a bien sûr les <b>mots-clés</b> qui ont une grande
-            importance, mais aussi <b>l'adaptabilité du site</b> à différents supports,
-            notamment aux mobiles: étant donné qu'aujourd'hui la majorité des
-            sites sont consultés sur mobile, Google y accorde beaucoup
-            d'importance. Enfin un autre point important est la <b>vitesse
-            d'affichage</b> de votre site: Google ne veut pas que ses utilisateurs
-            se retrouvent à attendre à cause d'un site peu optimisé et ceci
-            jouera donc sur son référencement.
+            importance, mais aussi <b>l'adaptabilité du site</b> à différents
+            supports, notamment aux mobiles: étant donné qu'aujourd'hui la
+            majorité des sites sont consultés sur mobile, Google y accorde
+            beaucoup d'importance. Enfin un autre point important est la
+            <b>vitesse d'affichage</b> de votre site: Google ne veut pas que ses
+            utilisateurs se retrouvent à attendre à cause d'un site peu optimisé
+            et ceci jouera donc sur son référencement.
             <br />
             <br />
-            Vous l'aurez compris, développer votre site, oui, mais surtout: le développer
-            en respectant tous ces points et bien d'autres.
+            <b
+              >Vous l'aurez compris, développer votre site, oui, mais surtout:
+              le développer en respectant tous ces points et bien d'autres.</b
+            >
           </p>
         </div>
         <!-- END SKILLS INFO -->
@@ -46,7 +50,7 @@
                 <div class="container skills-list--langages pb-4">
                   <span class="sr-only">Technologies</span>
                   <div class="row my-4">
-                    <div class="col-4">
+                    <div class="col-5 text-right">
                       <i
                         class="fab fa-html5 fa-4x"
                         aria-hidden="true"
@@ -54,7 +58,8 @@
                       ></i>
                       <span class="sr-only">HTML</span>
                     </div>
-                    <div class="col-4">
+                    <div class="col-2"></div>
+                    <div class="col-5 text-left">
                       <i
                         class="fab fa-css3-alt fa-4x"
                         aria-hidden="true"
@@ -62,6 +67,8 @@
                       ></i>
                       <span class="sr-only">CSS</span>
                     </div>
+                  </div>
+                  <div class="row my-4">
                     <div class="col-4">
                       <i
                         class="fab fa-js-square fa-4x"
@@ -70,8 +77,6 @@
                       ></i>
                       <span class="sr-only">JavaScript</span>
                     </div>
-                  </div>
-                  <div class="row my-4">
                     <div class="col-4">
                       <i
                         class="fab fa-bootstrap fa-4x"
@@ -82,19 +87,11 @@
                     </div>
                     <div class="col-4">
                       <i
-                        class="fab fa-vuejs fa-4x"
+                        class="fab fa-wordpress fa-4x"
                         aria-hidden="true"
-                        title="Vue.js"
+                        title="Wordpress"
                       ></i>
-                      <span class="sr-only">Vue.js</span>
-                    </div>
-                    <div class="col-4">
-                      <i
-                        class="fab fa-sass fa-4x"
-                        aria-hidden="true"
-                        title="Sass"
-                      ></i>
-                      <span class="sr-only">Sass</span>
+                      <span class="sr-only">Wordpress</span>
                     </div>
                   </div>
                   <div class="row my-4">
@@ -115,6 +112,25 @@
                       <span class="sr-only">SQL</span>
                     </div>
                     <div class="col-4">
+                      <i
+                        class="fab fa-sass fa-4x"
+                        aria-hidden="true"
+                        title="Sass"
+                      ></i>
+                      <span class="sr-only">Sass</span>
+                    </div>
+                  </div>
+                  <div class="row my-4">
+                    <div class="col-5 text-right">
+                      <i
+                        class="fab fa-vuejs fa-4x"
+                        aria-hidden="true"
+                        title="Vue.js"
+                      ></i>
+                      <span class="sr-only">Vue.js</span>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-5 text-left">
                       <i
                         class="fab fa-git-alt fa-4x"
                         aria-hidden="true"
