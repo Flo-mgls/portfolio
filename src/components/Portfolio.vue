@@ -51,7 +51,7 @@
           <PortfolioItem
             siteName="Deckgen"
             githubLink="https://github.com/Flo-mgls/deckGen"
-            siteLink="https://florian-magalhaes.fr/deckGen/"
+            siteLink="https://deckgen.space"
           >
             <template v-slot:info>
               Générateur de deck pour un jeu en ligne: Clash Royale

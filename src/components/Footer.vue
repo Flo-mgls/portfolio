@@ -3,7 +3,7 @@
   <section id="footer" class="pt-3">
     <div class="container-fluid">
       <p class="mb-0">
-        Copyright © 2020 Tous droits réservés | Florian Magalhaes
+        Copyright © 2021 Tous droits réservés | Florian Magalhaes
       </p>
       <button
         type="button"
