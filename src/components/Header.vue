@@ -21,7 +21,7 @@ export default {
   methods: {
     writingSubtitle() {
       //Animation like keyboard writing
-      let subtitle = "Développeur Web Full Stack";
+      let subtitle = "Développeur Web & Mobile";
       let speed = 100;
 
       if (this.i < subtitle.length) {

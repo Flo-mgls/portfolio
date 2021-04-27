@@ -121,7 +121,7 @@
                     </div>
                   </div>
                   <div class="row my-4">
-                    <div class="col-5 text-right">
+                    <div class="col-4">
                       <i
                         class="fab fa-vuejs fa-4x"
                         aria-hidden="true"
@@ -129,8 +129,15 @@
                       ></i>
                       <span class="sr-only">Vue.js</span>
                     </div>
-                    <div class="col-2"></div>
-                    <div class="col-5 text-left">
+                    <div class="col-4">
+                      <i
+                        class="fab fa-react fa-4x"
+                        aria-hidden="true"
+                        title="React Native"
+                      ></i>
+                      <span class="sr-only">Git</span>
+                    </div>
+                    <div class="col-4">
                       <i
                         class="fab fa-git-alt fa-4x"
                         aria-hidden="true"

@@ -5,10 +5,29 @@
       <h2 class="text-uppercase mb-1">Réalisations</h2>
       <div class="underline mx-auto mb-5"></div>
       <div class="row justify-content-center">
+        <!-- ITEM 0 -->
+        <div class="col-12 col-md-6 col-lg-4 my-3">
+          <PortfolioItem
+            siteName="Deckgen"
+            subTitle="Application mobile"
+            iosLink="https://apps.apple.com/fr/app/deckgen/id1564163204"
+            androidLink="https://play.google.com/store/apps/details?id=com.florianmagalhaes.deckgen"
+          >
+            <template v-slot:info>
+              Générateur de deck pour un jeu en ligne: Clash Royale
+            </template>
+            <template v-slot:techno>
+              <i class="fab fa-react fa-2x" aria-hidden="true" title="React Native"></i>
+              <span class="sr-only">React Native</span>
+            </template>
+          </PortfolioItem>
+        </div>
+        <!-- END ITEM 0 -->
         <!-- ITEM 1 -->
         <div class="col-12 col-md-6 col-lg-4 my-3">
           <PortfolioItem
             siteName="Ce site"
+            subTitle="Site web"
             githubLink="https://github.com/Flo-mgls/Portfolio"
             siteLink="https://florian-magalhaes.fr"
           >
@@ -50,6 +69,7 @@
         <div class="col-12 col-md-6 col-lg-4 my-3">
           <PortfolioItem
             siteName="Deckgen"
+            subTitle="Site web"
             githubLink="https://github.com/Flo-mgls/deckGen"
             siteLink="https://deckgen.space"
           >
@@ -90,6 +110,7 @@
         <div class="col-12 col-md-6 col-lg-4 my-3">
           <PortfolioItem
             siteName="Groupomania"
+            subTitle="Site web"
             githubLink="https://github.com/Flo-mgls/groupomania"
           >
             <template v-slot:info>
@@ -144,10 +165,12 @@
         <div class="col-12 col-md-6 col-lg-4 my-3">
           <PortfolioItem
             siteName="Piquante"
+            subTitle="Site web"
             githubLink="https://github.com/Flo-mgls/piquante-back"
           >
             <template v-slot:info>
-              Site de notation de sauces: création de compte, publication de sauces, reactions à celles-ci <br>Backend
+              Site de notation de sauces: création de compte, publication de
+              sauces, reactions à celles-ci <br />Backend
             </template>
             <template v-slot:techno>
               <i
@@ -170,10 +193,12 @@
         <div class="col-12 col-md-6 col-lg-4 my-3">
           <PortfolioItem
             siteName="Orinoco"
+            subTitle="Site web"
             githubLink="https://github.com/Flo-mgls/orinoco"
           >
             <template v-slot:info>
-              Site de vente d'oursons en peluche: du choix du produit à la confirmation de commande <br>Frontend
+              Site de vente d'oursons en peluche: du choix du produit à la
+              confirmation de commande <br />Frontend
             </template>
             <template v-slot:techno>
               <i class="fab fa-html5 fa-2x" aria-hidden="true" title="HTML"></i>
@@ -204,9 +229,11 @@
         <!-- END ITEM 5 -->
         <!-- ITEM 6 -->
         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <PortfolioItem siteName="La chouette agence">
+          <PortfolioItem siteName="La chouette agence" subTitle="Site web">
             <template v-slot:info>
-              Optimisation du site déjà existant: performance d'affichage accrue, design repensé pour s'afficher correctement sur mobile, référencement amélioré
+              Optimisation du site déjà existant: performance d'affichage
+              accrue, design repensé pour s'afficher correctement sur mobile,
+              référencement amélioré
             </template>
             <template v-slot:techno>
               <i class="fab fa-html5 fa-2x" aria-hidden="true" title="HTML"></i>
@@ -225,10 +252,12 @@
         <div class="col-12 col-md-6 col-lg-4 my-3">
           <PortfolioItem
             siteName="Ohmyfood"
+            subTitle="Site web"
             githubLink="https://github.com/Flo-mgls/ohmyfood"
           >
             <template v-slot:info>
-              Site de présentation de menu d'un restaurant: intégration d'une maquette, animation ajoutée
+              Site de présentation de menu d'un restaurant: intégration d'une
+              maquette, animation ajoutée
             </template>
             <template v-slot:techno>
               <i class="fab fa-html5 fa-2x" aria-hidden="true" title="HTML"></i>

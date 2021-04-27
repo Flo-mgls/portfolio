@@ -6,7 +6,10 @@
       <div
         class="flipCard--front d-flex align-items-center justify-content-center px-1"
       >
-        <h3 class="text-uppercase">{{ siteName }}</h3>
+        <div>
+          <h3 class="text-uppercase">{{ siteName }}</h3>
+          <p v-if="subTitle">{{ subTitle }}</p>
+        </div>
         <i
           class="fas fa-fingerprint fa-lg position-absolute"
           aria-hidden="true"
@@ -34,7 +37,7 @@
           </div>
           <div
             class="col-3 d-flex align-items-center justify-content-center flex-column"
-            v-if="githubLink || siteLink"
+            v-if="githubLink || siteLink || iosLink || androidLink"
           >
             <a :href="githubLink" class="py-2" v-if="githubLink"
               ><i
@@ -51,6 +54,22 @@
                 title="Lien du site"
               ></i
               ><span class="sr-only">Lien du site</span></a
+            >
+            <a :href="iosLink" class="py-2" v-if="iosLink"
+              ><i
+                class="fab fa-app-store-ios fa-3x"
+                aria-hidden="true"
+                title="Lien appstore"
+              ></i
+              ><span class="sr-only">Lien appstore</span></a
+            >
+            <a :href="androidLink" class="py-2" v-if="androidLink"
+              ><i
+                class="fab fa-google-play fa-3x"
+                aria-hidden="true"
+                title="Lien google play"
+              ></i
+              ><span class="sr-only">Lien google play</span></a
             >
           </div>
         </div>
@@ -69,10 +88,19 @@ export default {
       type: String,
       required: true,
     },
+    subTitle: {
+      type: String,
+    },
     githubLink: {
       type: String,
     },
     siteLink: {
+      type: String,
+    },
+    iosLink: {
+      type: String,
+    },
+    androidLink: {
       type: String,
     },
   },
