@@ -33,10 +33,13 @@
             <b>Je vous propose donc mon savoir-faire, celui-ci en phase avec les
             dernières lignes directives du développement, afin de vous aider à
             vous faire une présence dans cet énorme monde qu'est le web.</b>
+            <br />
+            <b>Mon parcours ne s'est pas arrêté là, je me suis formé au développement d'application mobile,
+            ma toute dernière réalisation est un réseau social (lien disponible dans la section réalisation).
+            Cette compétence, comme toutes les autres, est à votre disposition.</b>
             <br /><br />
             Je suis disponible pour travailler avec vous à distance, partout
-            dans le monde, avec la possibilité de se rencontrer si vous êtes en
-            <strong>Bourgogne et dans les villes alentours telles que Dijon et Lyon.</strong>
+            dans le monde, <b>avec la possibilité de se rencontrer selon la distance.</b>
           </p>
           <a
             class="btn text-uppercase"

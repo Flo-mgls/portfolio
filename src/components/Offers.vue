@@ -7,7 +7,7 @@
         <div class="col-md-8 col-lg-6 px-4 px-md-5 py-5 offers-intro">
           <h2 class="text-uppercase mb-4">La solution qui vous convient...</h2>
           <p>
-            Avoir une présence sur le net en 2020 n'est plus une chose à
+            Avoir une présence sur le net en 2021 n'est plus une chose à
             négliger et pour certains cela est même une nécessité, surtout en
             ces temps. À différentes idées, différentes solutions, cependant
             pour chacune d'entre elles, la qualité de ma prestation sera mon

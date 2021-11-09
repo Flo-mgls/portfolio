@@ -5,6 +5,40 @@
       <h2 class="text-uppercase mb-1">Réalisations</h2>
       <div class="underline mx-auto mb-5"></div>
       <div class="row justify-content-center">
+        <!-- ITEM -1 -->
+        <div class="col-12 col-md-6 col-lg-4 my-3">
+          <PortfolioItem
+            siteName="Mood"
+            subTitle="Application mobile"
+            iosLink="https://apps.apple.com/fr/app/mood-emojis-are-words/id1593116646"
+            androidLink="https://play.google.com/store/apps/details?id=com.florianmagalhaes.mood"
+          >
+            <template v-slot:info>
+              Réseau social:<br />Partagez votre humeur avec des emojis
+            </template>
+            <template v-slot:techno>
+              <i
+                class="fab fa-react fa-2x"
+                aria-hidden="true"
+                title="React Native"
+              ></i>
+              <i
+                class="fab fa-node fa-2x"
+                aria-hidden="true"
+                title="Node.js"
+              ></i>
+              <span class="sr-only">Node.js</span>
+              <i
+                class="fas fa-database fa-2x"
+                aria-hidden="true"
+                title="SQL"
+              ></i>
+              <span class="sr-only">SQL</span>
+              <span class="sr-only">React Native</span>
+            </template>
+          </PortfolioItem>
+        </div>
+        <!-- END ITEM -1 -->
         <!-- ITEM 0 -->
         <div class="col-12 col-md-6 col-lg-4 my-3">
           <PortfolioItem
@@ -17,7 +51,11 @@
               Générateur de deck pour un jeu en ligne: Clash Royale
             </template>
             <template v-slot:techno>
-              <i class="fab fa-react fa-2x" aria-hidden="true" title="React Native"></i>
+              <i
+                class="fab fa-react fa-2x"
+                aria-hidden="true"
+                title="React Native"
+              ></i>
               <span class="sr-only">React Native</span>
             </template>
           </PortfolioItem>
